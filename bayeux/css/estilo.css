@@ -1,0 +1,13 @@
+:root{
+    --cor01:#ffff;
+    --cor02:black;
+}
+
+.cor-primaria{
+    background-color: var(--cor01);
+    color:var(--cor02);
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 10px;
+    height: 100%;
+}
