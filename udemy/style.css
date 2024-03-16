@@ -1,3 +1,7 @@
 .text-justify{
     text-align: justify;
 }
+
+body{
+    height: 100vw;
+}
