@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Botões</title>
+</head>
+<body style="padding-bottom: 200px; width: 600px; margin: 0 auto; border: 2px solid red;">
+
+
+    <!-- Botões
+        Formatação Padrão: btn
+        Formatação Especificas: 
+        - btn-primary
+        - btn-secondary
+        - btn-success
+        - btn-danger
+        - btn-warning
+        - btn-info
+        - btn-light
+        - btn-dark
+        - btn-link
+     -->
+
+    <h1>Trabalhando com Botões</h1>
+    <button type="button" class="btn btn-dark">Clique</button>
+
+    <!-- Botões com Contorno utilizamos a tag Outline -->
+    <h3>Botões com Contorno</h3>
+    <button type="button" class="btn btn-outline-dark">Clique</button>
+
+    <!-- Tamanho de Botões
+        opções: 
+        - btn-lg
+        - btn-sm
+        - btn-block
+     -->
+
+     <h3>Tamanho de Botões</h3>
+     <button class="btn btn-lg btn-primary">Grande</button>
+     <button class="btn btn-danger">Normal</button>
+     <button class="btn btn-sm btn-success">Pequeno</button>
+     <br><br>
+
+     <h3>Estado dos Botões</h3>
+     <button class="btn btn-success">Normal</button>
+     <button class="btn btn-success active">Ativo</button>
+     <button class="btn btn-success disabled">Inativo</button>
+     <br><br>
+     <button class="btn btn-success" data-togle="button">Alternar</button>
+     <br><br>
+
+     <h3>Grupo de botões - Horizontal</h3>
+        <div class="btn-group">
+            <button class="btn btn-info">Esquerda</button>
+            <button class="btn btn-info">Centro</button>
+            <button class="btn btn-info">Direita</button>
+        </div>
+        <br><br>
+
+        <h3>Grupo de botões - Vertical</h3>
+        <div class="btn-group-vertical">
+            <button class="btn btn-danger">Topo</button>
+            <button class="btn btn-danger">Meio</button>
+            <button class="btn btn-danger">Fundo</button>
+        </div>
+        <br><br>
+
+        <h3>Toolbar de Botões</h3>
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <button class="btn btn-danger">1</button>
+                <button class="btn btn-danger">2</button>
+                <button class="btn btn-danger">3</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-danger">4</button>
+                <button class="btn btn-danger">5</button>
+            </div>
+        </div>
+        <br><br>
+
+        <h3>Botões Dropdown</h3>
+        <div class="dropdown">   
+            <button class="btn btn-success dropdown-toggle" type="button"
+            data-bs-toggle="dropdown">Clique</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link 1</a>
+                <div class="dropdown-divider"></div> <!-- Essa Tag serve para Separar no Dropdown -->
+                <a href="#" class="dropdown-item">Link 2</a>
+                <a href="#" class="dropdown-item">Link 3</a>
+            </div>
+        </div>
+        <br>
+        <br>
+       
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>    
+</body>
+</html>

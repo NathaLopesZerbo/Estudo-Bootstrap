@@ -6,10 +6,76 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Tamanhos e Bordas</title>
 </head>
-<body>
+<body style="margin-bottom: 200px; width: 600px; margin: 0 auto;">
     
     <h1>Tamanho e Bordas - Bootstrap 5</h1>
 
+    <!-- Classes de Largura -->
+
+    <div class="bg-primary w-25">Width 25%</div>
+    <div class="bg-primary w-50">Width 50%</div>
+    <div class="bg-primary w-75">Width 75%</div>
+    <div class="bg-primary w-100">Width 100%</div>
+    <div class="bg-primary w-auto">Width auto</div>
+
+    <br><br>
+
+    <!-- Classes de Altura -->
+    <div style="height: 300px; border: 1px solid black;">
+        <div class="bg-warning d-inline-block h-25">Height 25%</div>
+        <div class="bg-warning d-inline-block h-50">Height 50%</div>
+        <div class="bg-warning d-inline-block h-75">Height 75%</div>
+        <div class="bg-warning d-inline-block h-100">Height 100%</div>
+        <div class="bg-warning d-inline-block h-auto">Height auto</div>
+    </div>
+
+    <br><br>
+
+    <!-- Bordas:
+        border -> Todas as Bordas
+        border-top -> borda superior
+        border-bottom -> borda inferior
+        border-start -> borda esquerda
+        border-end -> borda direita
+    
+        Cores de Bordas: 
+        - Primary
+        - Secondary
+        - Success
+        - Info
+        - Warning
+        - Danger
+        - Light
+        - Dark
+        - White
+    -->
+
+    <div class="bg-white mb-2 border border-primary">Todas as Bordas</div>
+    <div class="bg-white mb-2 border-top border-secondary">Borda Superior</div>
+    <div class="bg-white mb-2 border-bottom border-success">Borda Inferior</div>
+    <div class="bg-white mb-2 border-start border-info">Borda Esquerda</div>
+    <div class="bg-white mb-2 border-end border-warning">Borda Direita</div>
+
+    <br><br><br><br>
+
+    <!-- Border Radius
+        Opções:
+        - Rounded
+        - Rounded-top
+        - Rounded-End
+        - Rounded-bottom
+        - rounded-start
+        - Rounded-Circle
+        - Rounded-pill
+    -->
+
+    <div class="bg-white mb-2 border border-primary rounded">Rounded</div>
+    <div class="bg-white mb-2 border border-secondary rounded-top">Rounded-top</div>
+    <div class="bg-white mb-2 border border-success rounded-end">Rounded-end</div>
+    <div class="bg-white mb-2 border border-start border-info rounded-bottom">rounded-bottom</div>
+    <div class="bg-white mb-2 border border-warning rounded-start">Rounded-start</div>
+    <div class="bg-white mb-2 border border-warning rounded-circle">Rounded-Circle</div>
+    <div class="bg-white mb-2 border border-warning rounded-circle">Rounded-pill</div>
 
 
 
