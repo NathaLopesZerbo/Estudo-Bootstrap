@@ -45,9 +45,81 @@
                     <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                 </ul>
-
             </nav>
+            <br><br>
 
+        <h2>Barra de Navegação com Menu Responsivo</h2>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <!-- Logo -->
+                <a href="#" class="navbar-brand">Chalé Hotel</a>
+                
+                <!-- Menu Hamburguer -->
+                <button class="navbar-toggler m-3" data-bs-toggle="collapse" data-bs-target="#nav-target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navegação -->
+                    <div class="collapse navbar-collapse" id="nav-target">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+            </nav>
+            <br><br>
+
+        <h2>Barra de Navegação com Formulario</h2>
+        <nav class="navbar justify-content-around navbar-expand-sm navbar-dark bg-dark navbar-nav-scroll">
+            <!-- Logo -->
+            <a href="#" class="navbar-brand">Chalé Hotel</a>
+            
+            <!-- Menu Hamburguer -->
+            <button class="navbar-toggler m-3" data-bs-toggle="collapse" data-bs-target="#form-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navegação -->
+            <div class="collapse navbar-collapse fs-5" id="form-nav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+                <!-- Formulario -->
+                <form class="d-flex ms-auto">
+                    <input type="text" class="form-control" placeholder="pesquisar...">
+                    <button class="btn btn-outline-success">ok</button>
+                </form>
+            </div>
+        </nav>
+        <br><br>
+
+        <h2>Barra de Navegação com Dropdown</h2>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+            <!-- Logo -->
+            <a href="#" class="navbar-brand">Chalé Hotel</a>
+            
+            <!-- Menu Hamburguer -->
+            <button class="navbar-toggler m-3" data-bs-toggle="collapse" data-bs-target="#form-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navegação -->
+            <div class="collapse navbar-collapse fs-5 " id="form-nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                       <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu">
+                            <a href="" class="dropdown-item">Serviço 1</a>
+                            <a href="" class="dropdown-item">Serviço 2</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
 
 
