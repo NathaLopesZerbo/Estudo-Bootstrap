@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <title>Sistema GridLayout</title>
+    <style>
+        .marcador{
+            background-color: #fe9d9d;
+            border: 1px solid #f94646;
+        }
+
+        .marcador-container{
+            background-color: #5bf946;
+            border: 1px solid #36ae26;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- No Grid temos 12 colunas disponiveis em nosso site, 
+        podemos manipula-las para ocupar o espaço devido a cada área inserida, 
+        deixando o site organizado responsivo, e dinamico para o usuario.
+
+        Existem 12 colunas representadas no Bootsrap como:
+            - col-1
+            - col-2
+            - col-3
+            - col-4
+            - col-5
+            - col-6
+            - col-7
+            - col-8
+            - col-9
+            - col-10
+            - col-11
+            - col-12
+
+            No sistema Grid é utilizado Min-Width.
+    -->
+
+    <div class="container marcador-container">
+        <div class="row">
+
+            <div class="marcador col-sm-6 col-xl-2">
+                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident consequuntur est quo esse vitae facilis corrupti, rerum impedit nemo minima sit assumenda magni perferendis alias voluptas. Vero, itaque tempora.</p>
+                <button class="btn bg-warning">Read me</button>
+            </div>
+
+            <div class="marcador col-sm-6 col-xl-4">
+                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident consequuntur est quo esse vitae facilis corrupti, rerum impedit nemo minima sit assumenda magni perferendis alias voluptas. Vero, itaque tempora.</p>
+                <button class="btn bg-warning">Read me</button>
+            </div>
+
+            <div class="marcador col-sm-6 col-xl-4">
+                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident consequuntur est quo esse vitae facilis corrupti, rerum impedit nemo minima sit assumenda magni perferendis alias voluptas. Vero, itaque tempora.</p>
+                <button class="btn bg-warning">Read me</button>
+            </div>
+
+            <div class="marcador col-sm-6 col-xl-2">
+                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident consequuntur est quo esse vitae facilis corrupti, rerum impedit nemo minima sit assumenda magni perferendis alias voluptas. Vero, itaque tempora.</p>
+                <button class="btn bg-warning">Read me</button>
+            </div>  
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>   
+</body>
+</html>
