@@ -5,18 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
     <title>Flexbox</title>
+    <style>
+        .caixa{
+            background-color: #b1afaf;
+            height: 200px;
+        }
+
+        .item{
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+
 </head>
 <body>
 
+<<<<<<< HEAD
+    <div class="container">
+
+        <!-- Para usarmos Flexbox utilizamos a Tag:
+            - D-flex: Criar a classe Container.
+            - Flex-Row: Itens alinhados um ao lado do outro (Horizontal).
+            - Flex-Column: Itens alinhados uma embaixo do outro (Vertical).
+         -->
+        <h2>Flex Container e Flex Itens</h2>
+            <div class="caixa d-flex">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div> 
+            </div>
+            <br><br>
+=======
+        
+>>>>>>> 87bc69df6924579258896c2a6fad3a4827b72bf7
 
 
+        <!-- Para utilizarmos Alinhamentos Horizontais, usamos a TAG:
+            justify-content-ALINHAMENTO:
+            - Start
+            - Center
+            - End 
+            - Around
+            - Evenly
+            - Between
+        -->
+        <h2>Alinhamento Horizontal</h2>
+            <div class="caixa d-flex justify-content-end">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div> 
+            </div>
+            <br><br>
 
+        <!-- Para utilizarmos colunas, usamos a TAG:
+            flex-column: Onde coloca os itens que estão dentro da Tag d-flex, em colunas.
+        -->
+        <h2>Colunas</h2>
+            <div class="caixa d-flex flex-column">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div> 
+            </div>
+            <br><br>
 
+        <!-- Para usarmos elementos na vertical, utilizamos a TAG:
+            align-items-ALINHAMENTO:
+            - Start: Topo
+            - Center: Centro
+            - End: Final
+            - Baseline: Alinhado pela Linha base do texto
+            - Stretch: Padrão, Esticado
+         -->
+        <h2>Alinhamento Vertical</h2>
+            <div class="caixa d-flex align-items-center">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div> 
+            </div>
+            <br><br>
 
+        <!-- Alinhamento Self, é oque aplicamos em cada um dos itens, em especifico, utilizamos a TAG:
+            aling-self-ALINHAMENTO:
+            - Start
+            - Center
+            - End
+            - Baseline
+            - Stretch
 
+            Aplicado em cada item, não em uma div que engloba todos
+         -->
+        <h2>Alinhamento Self</h2>
+            <div class="caixa d-flex">
+                <div class="item align-self-end">Item 1</div>
+                <div class="item align-self-center">Item 2</div>
+                <div class="item align-self-start">Item 3</div> 
+                <div class="item align-self-baseline">Item 4</div> 
+                <div class="item align-self-stretch">Item 5</div> 
+            </div>  
 
-
-
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>  
