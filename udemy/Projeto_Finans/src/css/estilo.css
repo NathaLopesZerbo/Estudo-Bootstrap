@@ -4,5 +4,22 @@
 }
 
 body{
-	background-color: #e9e4d1;
+	background-color: #f0f0f0;
+}
+
+.justify{
+	text-align: justify;
+}
+
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5 ;
+}
+.p-icon{
+	padding: 1px;
+}
+
+.espacamento{
+	margin-left: 150px;
 }
